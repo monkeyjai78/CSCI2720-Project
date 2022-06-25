@@ -1,0 +1,24 @@
+/*Group members
+Hung Man Kei   (1155127099)	 Ng Megan Hoi Ling (1155124894)
+Ching Sze Yuen (1155126621)  Tsai Kwun Ki      (1155126289)*/
+
+.user-button{
+  margin-top: 20px;
+  padding-top: 12px;
+  align-self: center;
+  width: 120px;
+  height: 40px;
+  color: #ffffff;
+  background: #1F6332;
+  border-radius: 5px;
+  margin: 15px 5px;
+}
+
+.button-container{
+  width: 100%;
+}
+
+.table-action-container{
+  display: flex;
+  justify-content: center;
+}

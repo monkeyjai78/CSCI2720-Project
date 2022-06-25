@@ -1,0 +1,143 @@
+/*Group members
+Hung Man Kei   (1155127099)	 Ng Megan Hoi Ling (1155124894)
+Ching Sze Yuen (1155126621)  Tsai Kwun Ki      (1155126289)*/
+
+html,
+body,
+#root {
+    height: 100%;
+}
+button,
+input,
+textarea {
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  background-color: inherit;
+  outline: 0;
+}
+button,
+img
+{
+  user-select: none;
+}
+
+body {
+  margin: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #faf5e6;
+}
+
+.my-maker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #f60;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  user-select: none;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.my-maker:hover {
+  z-index: 1;
+}
+
+.hd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  margin: 0 auto;
+}
+.hd nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+.active {
+  color: #f60 !important;
+}
+
+.page-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden
+}
+
+
+
+.table {
+  border-collapse: collapse;
+  text-align: center;
+  flex:  1;
+  overflow: hidden
+}
+
+.table thead td {
+  border-bottom: 1px solid #a8a8a8;
+  padding-bottom: 10px;
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: 24px;
+  padding-left: 20px;
+}
+
+
+.table tbody td{
+  padding: 10px;
+  font-size: 12px ;
+  line-height: 16px;
+  min-height: 68px;
+  padding-left: 20px;
+  border-bottom: 1px solid #a8a8a8;
+}
+
+.table-button{
+  display: flex;
+  background: #1f6332;
+  font-size: 14px;
+  color: #ffffff;
+  justify-content: center;
+  white-space: nowrap;
+  padding: 0 20px;
+  height: 50px;
+}
+
+.table-number{
+  font-weight: 300;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #4caf50;
+  color: white;
+  border: 2px solid #4caf50;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
